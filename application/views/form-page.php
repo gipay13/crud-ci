@@ -25,10 +25,6 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 							<input type="text" name="nama" class="form-control" id="nama" value="<?= $i->nama ?>" required>
 						</div>
 						<div class="form-group mb-3">
-							<label for="r">Nama</label>
-							<input type="range" name="narma" class="form-control" id="r" required>
-						</div>
-						<div class="form-group mb-3">
 							<label for="jenis_kelamin">Jenis Kelamin</label>
 							<select name="jenis_kelamin" id="jenis_kelamin" class="form-select" required>
 								<option value="">--Pilih--</option>

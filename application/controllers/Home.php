@@ -35,6 +35,7 @@ class Home extends CI_Controller {
 	public function process() {
 		$process = $this->input->post(null, TRUE);
 
+		// print_r($process);
 		$config = [
 			'upload_path' 	=> './uploads',
 			'allowed_types'	=> 'jpeg|jpg|png',
